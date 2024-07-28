@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --font-size-base: 16px;
+    --spacing-unit: 8px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+    color: white;
+
+}
+
+.lh-1 {
+    line-height: 130%;
+}
