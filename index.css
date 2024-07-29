@@ -16,3 +16,39 @@ body {
 .lh-1 {
     line-height: 130%;
 }
+
+.grad-1 {
+    border-radius: 10px;
+    border: 1px solid #0E381A;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 10%, rgba(255, 255, 255, 0.02) 100%);
+}
+
+.video3 {
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video3 iframe {
+    width: 95%;
+    aspect-ratio: 16 / 9;
+    /* opacity: 0; */
+}
+
+.form-container {
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.button-green {
+    border-radius: 9px;
+    background: #04FDA9;
+    padding: 12px 30px;
+}
+
+.button-blue {
+    border-radius: 12px;
+    background: linear-gradient(0deg, #4FB6EC 0%, #4FB6EC 100%), #134CFF;
+    padding: 12px 30px;
+}
