@@ -60,6 +60,7 @@ body {
     background-size: cover;
 }
 
-.ttt {
-    z-index: 99999999px !important;
+.nav-button {
+    border-radius: 9px;
+    background: linear-gradient(180deg, #DEB037 0%, #EE9D23 100%), #04FDA9;
 }
