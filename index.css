@@ -52,3 +52,14 @@ body {
     background: linear-gradient(0deg, #4FB6EC 0%, #4FB6EC 100%), #134CFF;
     padding: 12px 30px;
 }
+
+.sec-1 {
+    background: url('./assets/flexxa_bg-sec1.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.ttt {
+    z-index: 99999999px !important;
+}
