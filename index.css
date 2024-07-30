@@ -64,3 +64,10 @@ body {
     border-radius: 9px;
     background: linear-gradient(180deg, #DEB037 0%, #EE9D23 100%), #04FDA9;
 }
+
+
+.launch-container {
+    border-radius: 10px;
+    border: 1px solid #0E381A;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 10%, rgba(255, 255, 255, 0.02) 100%);
+}
