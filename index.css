@@ -77,3 +77,8 @@ body {
     border: 2px solid rgba(155, 161, 181, 0.25);
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
 }
+
+.affiliate_link-btn {
+    border-radius: 30px;
+    background: linear-gradient(180deg, #DEB037 0%, #EE9D23 100%), #04FDA9;
+}
