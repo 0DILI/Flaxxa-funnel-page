@@ -1,84 +1,109 @@
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
-    --font-size-base: 16px;
-    --spacing-unit: 8px;
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
+  --font-size-base: 16px;
+  --spacing-unit: 8px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
 body {
-    font-family: "Outfit", sans-serif;
-    color: white;
-
+  font-family: "Outfit", sans-serif;
+  color: white;
 }
 
 .lh-1 {
-    line-height: 130%;
+  line-height: 130%;
+}
+
+/* SECTIONS */
+
+.sec-1 {
+  background: url("./assets/fw-jv-sec1-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-2 {
+  background: url("./assets/fw-jv-sec2-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .grad-1 {
-    border-radius: 10px;
-    border: 1px solid #0E381A;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 10%, rgba(255, 255, 255, 0.02) 100%);
+  border-radius: 10px;
+  border: 1px solid #0e381a;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.25) 10%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
 }
 
 .video3 {
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .video3 iframe {
-    width: 95%;
-    aspect-ratio: 16 / 9;
-    /* opacity: 0; */
+  width: 95%;
+  aspect-ratio: 16 / 9;
+  /* opacity: 0; */
 }
 
 .form-container {
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.10);
+  border-radius: 50px;
+  background: rgba(47, 60, 51, 0.7);
 }
 
 .button-green {
-    border-radius: 9px;
-    background: #04FDA9;
-    padding: 12px 30px;
+  border-radius: 9px;
+  background: #04fda9;
+  padding: 12px 30px;
 }
 
 .button-blue {
-    border-radius: 12px;
-    background: linear-gradient(0deg, #4FB6EC 0%, #4FB6EC 100%), #134CFF;
-    padding: 12px 30px;
-}
-
-.sec-1 {
-    background: url('./assets/flexxa_bg-sec1.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  border-radius: 12px;
+  background: linear-gradient(0deg, #4fb6ec 0%, #4fb6ec 100%), #134cff;
+  padding: 12px 30px;
 }
 
 .nav-button {
-    border-radius: 9px;
-    background: linear-gradient(180deg, #DEB037 0%, #EE9D23 100%), #04FDA9;
+  border-radius: 9px;
+  background: linear-gradient(180deg, #deb037 0%, #ee9d23 100%), #04fda9;
 }
 
-
 .launch-container {
-    border-radius: 10px;
-    border: 1px solid #0E381A;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 10%, rgba(255, 255, 255, 0.02) 100%);
+  border-radius: 10px;
+  border: 1px solid #0e381a;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.25) 10%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
 }
 
 .oto-box {
-    border-radius: 40px;
-    border: 2px solid rgba(155, 161, 181, 0.25);
-    box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  border: 2px solid rgba(155, 161, 181, 0.25);
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .affiliate_link-btn {
-    border-radius: 30px;
-    background: linear-gradient(180deg, #DEB037 0%, #EE9D23 100%), #04FDA9;
+  border-radius: 30px;
+  background: linear-gradient(180deg, #deb037 0%, #ee9d23 100%), #04fda9;
+}
+
+.dominate {
+  background: linear-gradient(90deg, #fecb32 0%, #00a884 67.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 900 !important;
 }

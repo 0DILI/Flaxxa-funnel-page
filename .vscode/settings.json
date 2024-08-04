@@ -1,4 +1,12 @@
 {
   "editor.defaultFormatter": "mohd-akram.vscode-html-format",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "mohd-akram.vscode-html-format"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "notebook.defaultFormatter": null,
+  "editor.formatOnPaste": false
 }
