@@ -21,7 +21,7 @@ body {
 .sec-1 {
   background: url("./assets/sec-1-test.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom center;
   background-size: cover;
 }
 
