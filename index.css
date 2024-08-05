@@ -19,14 +19,28 @@ body {
 /* SECTIONS */
 
 .sec-1 {
-  background: url("./assets/fw-jv-sec1-bg.svg");
+  background: url("./assets/fw-jv-sec1-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .sec-2 {
-  background: url("./assets/fw-jv-sec2-bg.svg");
+  background: url("./assets/fw-jv-sec2-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-3 {
+  background: url("./assets/fw-jv-sec3-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-4 {
+  background: url("./assets/fw-jv-sec4-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
