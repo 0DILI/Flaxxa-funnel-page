@@ -1,0 +1,33 @@
+<svg width="1440" height="1520" viewBox="0 0 1440 1520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_153_259)">
+<rect width="1440" height="1519" fill="#103928"/>
+<g filter="url(#filter0_f_153_259)">
+<circle cx="720" cy="383" r="265" fill="#42AE9D"/>
+</g>
+<g filter="url(#filter1_f_153_259)">
+<ellipse cx="449.062" cy="43.9973" rx="449.062" ry="43.9973" transform="matrix(-0.999967 -0.00817453 -0.00817453 0.999967 1169.41 907)" fill="url(#paint0_radial_153_259)"/>
+</g>
+<rect width="1440" height="1519" fill="#103928"/>
+<path d="M1503 552.363C1503 627.584 1470.76 688.563 1431 688.563C1391.24 688.563 1359 627.584 1359 552.363C1359 477.143 1391.24 416.164 1431 416.164C1470.76 416.164 1503 477.143 1503 552.363ZM1367.16 552.363C1367.16 619.055 1395.74 673.12 1431 673.12C1466.26 673.12 1494.84 619.055 1494.84 552.363C1494.84 485.671 1466.26 431.607 1431 431.607C1395.74 431.607 1367.16 485.671 1367.16 552.363Z" fill="#1D535C"/>
+<path d="M1481 552.364C1481 604.601 1458.61 646.947 1431 646.947C1403.39 646.947 1381 604.601 1381 552.364C1381 500.127 1403.39 457.781 1431 457.781C1458.61 457.781 1481 500.127 1481 552.364ZM1389.8 552.364C1389.8 595.41 1408.24 630.305 1431 630.305C1453.76 630.305 1472.2 595.41 1472.2 552.364C1472.2 509.318 1453.76 474.423 1431 474.423C1408.24 474.423 1389.8 509.318 1389.8 552.364Z" fill="#1D535C"/>
+</g>
+<defs>
+<filter id="filter0_f_153_259" x="-45" y="-382" width="1530" height="1530" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_153_259"/>
+</filter>
+<filter id="filter1_f_153_259" x="133.953" y="766.174" width="1172.09" height="362.303" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="68.5" result="effect1_foregroundBlur_153_259"/>
+</filter>
+<radialGradient id="paint0_radial_153_259" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(78.3598 44.8599) scale(847.642 11341.9)">
+<stop stop-color="#297B68"/>
+<stop offset="1" stop-color="#242424"/>
+</radialGradient>
+<clipPath id="clip0_153_259">
+<rect width="1440" height="1519" fill="white" transform="translate(0 0.0390625)"/>
+</clipPath>
+</defs>
+</svg>

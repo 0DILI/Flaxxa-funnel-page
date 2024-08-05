@@ -26,7 +26,7 @@ body {
 }
 
 .sec-2 {
-  background: url("./assets/fw-jv-sec2-bg.png");
+  background: url("./assets/sec-2-testt.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -41,6 +41,20 @@ body {
 
 .sec-4 {
   background: url("./assets/fw-jv-sec4-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-5 {
+  background: url("./assets/fw-jv-sec5-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-6 {
+  background: url("./assets/fw-jv-sec6-bg.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
