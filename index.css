@@ -47,9 +47,9 @@ body {
 }
 
 .sec-5 {
-  background: url("./assets/fw-jv-sec5-bg.svg");
+  background: url("./assets/fw-jv-sec5-bg.png");
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
 }
 

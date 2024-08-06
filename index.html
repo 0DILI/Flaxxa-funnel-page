@@ -12,6 +12,9 @@
     <!-- Tailwindcss -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="index.css" />
 
     <title>Document</title>
@@ -81,7 +84,8 @@
           <span class="font-semibold"> completely ignored?</span>
         </p>
 
-        <span class="mt-5 block">
+        <div class="mt-5 block" data-aos="fade-up" data-aos-duration="1200"
+          data-aos-once="true">
           <h1
             class="text-center text-[25px] sm:text-[40px] text-white font-bold leading-[120%] px-7">
             Disruptive WhatsApp Marketing & Automation Tool <br />
@@ -99,7 +103,7 @@
             Reach Billions of Active WhatsApp Users, & Achieve 10x The Results
             of Traditional Marketing Channels!
           </h3>
-        </span>
+        </div>
 
         <p
           class="text-center text-[#D2D7E4] sm:text-[22px] text-base font-normal leading-[130%] mt-8">
@@ -179,7 +183,9 @@
           </div>
         </div> -->
 
-        <img src="./assets/video.png" class="block mx-auto mt-10" alt />
+        <div data-aos="fade-up" data-aos-duration="1200" data-aos-once="true">
+          <img src="./assets/video.png" class="block mx-auto mt-10" alt />
+        </div>
 
         <h3
           class="text-center text-white md:text-[42px] text-[25px] font-semibold leading-[120%] mt-16">
@@ -234,7 +240,8 @@
               <span class="font-semibold"> JV Cash Prizes</span>
             </p>
 
-            <button class="button-green mt-7 block mx-auto">
+            <button
+              class="button-green mt-7 block mx-auto transition duration-500 hover:scale-110">
               <a href="#" class="text-[#000700E5] text-xl font-bold">Get
                 Affiliate Link</a>
             </button>
@@ -260,7 +267,7 @@
                 class="placeholder:text-[#757575] w-[80%] outline-none focus:border-[#D4D5D9] py-3 mt-5 px-3 rounded-xl border border-[#D4D5D9] border-solid" />
 
               <button
-                class="button-blue w-[80%] text-white mt-4 text-lg font-semibold">
+                class="button-blue w-[80%] text-white mt-4 text-lg font-semibold transition duration-500 hover:scale-110">
                 BECOME A WAPI AFFILIATE
               </button>
             </form>
@@ -303,12 +310,16 @@
         </p>
 
         <h3
-          class="text-center sm:text-[44px] text-3xl font-black text-[#E91C43] mt-12">
+          class="text-center sm:text-[44px] text-3xl font-black text-[#E91C43] mt-12"
+          data-aos="fade-up" data-aos-duration="1200"
+          data-aos-once="true">
           Struggling With These?
         </h3>
 
         <div
-          class="bg-white max-w-[900px] mx-auto text-black p-8 rounded-[50px] mt-16">
+          class="bg-white max-w-[900px] mx-auto text-black p-8 rounded-[50px] mt-16"
+          data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="100"
+          data-aos-once="true">
           <span class="flex gap-4 border-b border-[#E91C43] py-3">
             <img src="./assets/circle-icon.svg" />
             <span>
@@ -600,7 +611,7 @@
         <div
           class="grid md:grid-cols-3 sm:grid-cols-2 gap-10 max-w-[1000px] mx-auto mt-24">
           <span class="flex flex-col items-center">
-            <img src="./assets/img-test1.png" class="w-[120px]" />
+            <img src="./assets/img-test1.1.png" class="w-[120px]" />
             <p class="text-[22px] font-bold text-center mt-2">
               Beauty and Cosmetics
             </p>
@@ -612,7 +623,7 @@
           </span>
 
           <span class="flex flex-col items-center">
-            <img src="./assets/Ellipse1.png" alt />j
+            <img src="./assets/img-test1.png" class="w-[120px]" />
             <p class="text-[22px] font-bold text-center mt-2">
               Health and Wellness
             </p>
@@ -732,7 +743,7 @@
     </section>
 
     <!-- SECTION5 -->
-    <section class="py-20 text-[#2F2F2F] sec-5">
+    <section class="py-24 text-[#2F2F2F] sec-5">
       <div class="max-w-[1200px] mx-auto lg:px-4 px-6">
         <h5 class="text-center sm:text-4xl text-2xl font-bold leading-[120%]">
           Discover WhatsApp Use Cases
@@ -2716,5 +2727,11 @@
     <!-- flowbite script -->
     <script
       src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
