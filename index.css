@@ -19,21 +19,21 @@ body {
 /* SECTIONS */
 
 .sec-1 {
-  background: url("./assets/sec-1-test.png");
+  background: url("./assets/fw-jv-sec1-bg.png");
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
 }
 
 .sec-2 {
-  background: url("./assets/sec-2-testt.jpeg");
+  background: url("./assets/fw-jv-sec2-bg.jpeg");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center;
   background-size: cover;
 }
 
 .sec-3 {
-  background: url("./assets/sec-3-testt.jpeg");
+  background: url("./assets/fw-jv-sec3-bg.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -42,7 +42,7 @@ body {
 .sec-4 {
   background: url("./assets/fw-jv-sec4-bg.png");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
 }
 
