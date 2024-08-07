@@ -81,6 +81,27 @@ body {
   background-size: cover;
 }
 
+.sec-10 {
+  background: url("./assets/fw-jv-sec10-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-11 {
+  background: url("./assets/fw-jv-sec11-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-12 {
+  background: url("./assets/fw-jv-sec12-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .grad-1 {
   border-radius: 10px;
   border: 1px solid #0e381a;
