@@ -130,16 +130,21 @@ body {
   background: rgba(47, 60, 51, 0.7);
 }
 
-.button-green {
-  border-radius: 9px;
-  background: #04fda9;
-  padding: 12px 30px;
-}
-
 .button-blue {
   border-radius: 12px;
   background: linear-gradient(0deg, #4fb6ec 0%, #4fb6ec 100%), #134cff;
   padding: 12px 30px;
+}
+
+.three-steps {
+  background: linear-gradient(90deg, #86c63a 31.27%, #ffd167 75.13%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  line-height: 120%;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 }
 
 .nav-button {
@@ -159,8 +164,9 @@ body {
 
 .oto-box {
   border-radius: 40px;
-  border: 2px solid rgba(155, 161, 181, 0.25);
-  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid #297b68;
+  background: rgba(249, 249, 249, 0.5);
+  box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
 .affiliate_link-btn {
