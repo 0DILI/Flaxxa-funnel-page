@@ -147,8 +147,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 80%; /* Adjust this for the desired size */
-  height: 80%; /* Adjust this for the desired size */
+  width: 100%; /* Adjust this for the desired size */
+  height: 100%; /* Adjust this for the desired size */
   transform: translate(-50%, -50%);
 }
 
