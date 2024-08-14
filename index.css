@@ -125,6 +125,39 @@ body {
   /* opacity: 0; */
 }
 
+/* .vid {
+  background: url("./assets/video-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+} */
+
+.vid {
+  background: url("./assets/video-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  width: 100%; /* Ensure the container takes full width */
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height divided by width) */
+}
+
+.video-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%; /* Adjust this for the desired size */
+  height: 80%; /* Adjust this for the desired size */
+  transform: translate(-50%, -50%);
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
 .form-container {
   border-radius: 50px;
   background: rgba(47, 60, 51, 0.7);
