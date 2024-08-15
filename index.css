@@ -10,6 +10,7 @@
 body {
   font-family: "Outfit", sans-serif;
   color: white;
+  overflow-x: hidden !important;
 }
 
 .lh-1 {
@@ -60,11 +61,12 @@ body {
   background-size: cover;
 }
 
-.sec-7 {
-  background: url("./assets/fw-jv-sec7-bg");
+.sec-7-bg-1 {
+  background: url("./assets/FW-JV-07-bg-01.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-color: white;
 }
 
 .sec-8 {
