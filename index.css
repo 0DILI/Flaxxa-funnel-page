@@ -109,6 +109,34 @@ body {
   background-size: cover;
 }
 
+.sec-14 {
+  background: url("./assets/fw-jv-sec14-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-15 {
+  background: url("./assets/fw-jv-sec15-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-16 {
+  background: url("./assets/fw-jv-sec16-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.jv-footer {
+  background: url("./assets/FW-JV-FOOTER-BG.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .grad-1 {
   border-radius: 10px;
   border: 1px solid #0e381a;
@@ -256,4 +284,10 @@ body {
   border-radius: 20px;
   border: 2px solid rgba(41, 123, 104, 0.32);
   box-shadow: 0px 0px 20px 0px rgba(17, 26, 20, 0.1);
+}
+
+.promo-buttons {
+  border-radius: 12px;
+  border-bottom: 4px solid #d48c1f;
+  background: linear-gradient(180deg, #deb037 0%, #ee9d23 100%);
 }
