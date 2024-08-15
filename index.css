@@ -89,7 +89,7 @@ body {
 }
 
 .sec-11 {
-  background: url("./assets/fw-jv-sec11-bg.svg");
+  background: url("./assets/fw-jv-sec11-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -97,6 +97,13 @@ body {
 
 .sec-12 {
   background: url("./assets/fw-jv-sec12-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sec-13 {
+  background: url("./assets/fw-jv-sec13-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -243,4 +250,10 @@ body {
   60% {
     transform: translateY(-15px);
   }
+}
+
+.promote-border {
+  border-radius: 20px;
+  border: 2px solid rgba(41, 123, 104, 0.32);
+  box-shadow: 0px 0px 20px 0px rgba(17, 26, 20, 0.1);
 }
