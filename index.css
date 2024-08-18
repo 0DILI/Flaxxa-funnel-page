@@ -17,8 +17,7 @@ body {
   line-height: 130%;
 }
 
-/* SECTIONS */
-
+/*JV BACKGROUND IMAGES start*/
 .sec-1 {
   background: url("./assets/fw-jv-sec1-bg.png");
   background-repeat: no-repeat;
@@ -138,6 +137,16 @@ body {
   background-position: center;
   background-size: cover;
 }
+
+/*JV BACKGROUND IMAGES end*/
+.presell-sec1 {
+  background: url("./assets/FW-Presell-sec1-bg.svg");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+}
+
+/*PRESELL BACKGROUND IMAGES start*/
 
 .grad-1 {
   border-radius: 10px;
@@ -292,4 +301,8 @@ body {
   border-radius: 12px;
   border-bottom: 4px solid #d48c1f;
   background: linear-gradient(180deg, #deb037 0%, #ee9d23 100%);
+}
+
+.shadow:hover {
+  box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
 }
