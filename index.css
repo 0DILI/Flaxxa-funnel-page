@@ -306,3 +306,20 @@ body {
 .shadow:hover {
   box-shadow: 0px 8px 16px 0px rgba(47, 60, 51, 0.05);
 }
+
+.vid-test {
+  background: url("./assets/vid.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+}
+
+.vid-test iframe {
+  width: 860px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
