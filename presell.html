@@ -14,8 +14,8 @@
     </head>
     <body>
         <!-- SECTION1 -->
-        <section class="py-12 presell-sec1">
-            <div class="max-w-[1200px] mx-auto lg:px-4 px-6">
+        <section class="py-12 presell-sec1 relative">
+            <div class="max-w-[1200px] mx-auto px-4 ">
                 <img src="./assets/FW-LOGO.png" class="w-[250px] mx-auto" />
 
                 <p
@@ -115,7 +115,7 @@
                         </p>
 
                         <button
-                            class="countdown flex gap-10 text-[48px] mx-auto justify-center md:mt-6 mt-3 px-5">
+                            class="countdown flex flex-wrap gap-10 text-[48px] mx-auto justify-center md:mt-6 mt-3 px-5">
                             <div>
                                 <span id="days">00</span>
                                 <div class="label text-[15px]">Days</div>
@@ -142,7 +142,7 @@
                         </p>
 
                         <button
-                            class="countdown flex gap-10 text-[48px] mx-auto justify-center md:mt-6 mt-3 px-5">
+                            class="countdown flex flex-wrap gap-10 text-[48px] mx-auto justify-center md:mt-6 mt-3 px-5">
                             <div>
                                 <span id="days">00</span>
                                 <div class="label text-[15px]">Days</div>
@@ -163,13 +163,14 @@
                     </div>
                 </div>
 
-                <div class="max-w-[900px] mx-auto p-[60px] mt-14"
+                <div
+                    class="max-w-[900px] mx-auto sm:p-[60px] p-[30px] mt-14 mb-48"
                     style="border-radius: 20px;
                 border: 4px dashed rgba(134, 198, 58, 0.40);
                 background: linear-gradient(0deg, #05312C 0%, #05312C 100%), rgba(47, 63, 27, 0.40);">
 
                     <h5
-                        class="text-center text-[#86C63A] text-[28px] font-semibold leading-[120%]">Sign
+                        class="text-center text-[#86C63A] sm:text-[28px] text-[22px] font-semibold leading-[120%]">Sign
                         up
                         now and claim
                         your spot for
@@ -178,17 +179,17 @@
                             else</span> </h5>
 
                     <h5
-                        class="text-center text-4xl	text-white font-black leading-[120%] mt-3">LIMITED
+                        class="text-center sm:text-4xl text-[28px]	text-white font-black leading-[120%] mt-3">LIMITED
                         SLOTS
                         AVAILABLE!</h5>
 
                     <p
-                        class="text-center text-[32px] font-light leading-[120%] mt-3">Join
+                        class="text-center sm:text-[32px] text-[25px] font-light leading-[120%] mt-3">Join
                         the waitlist if you
                         miss out.</p>
 
                     <p
-                        class="text-center text-[24px] text-[#A3D9B0] font-light leading-[120%] mt-2">Join
+                        class="text-center sm:text-[24px] text-lg text-[#A3D9B0] font-light leading-[120%] mt-2">Join
                         You're One Signup Away From Your Chance At Winning.</p>
 
                     <button
@@ -196,8 +197,10 @@
                         style="border-radius: 10px;
                         border: 1px solid #0E381A;
                         background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 10%, rgba(255, 255, 255, 0.02) 100%);">
-                        <img src="./assets/FW-Presell-icon1.svg" class="bounce">
-                        <p class="text-[22px] font-semibold leading-[140%]">
+                        <img src="./assets/FW-Presell-icon1.svg"
+                            class="animate-bounce-smooth">
+                        <p
+                            class="sm:text-[22px] text-lg font-semibold leading-[140%]">
                             FREE
                             Copy of Flaxxa Wapi x 5 Winners</p>
 
@@ -208,15 +211,418 @@
                         style="border-radius: 10px;
                         border: 1px solid #0E381A;
                         background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 10%, rgba(255, 255, 255, 0.02) 100%);">
-                        <img src="./assets/FW-Presell-icon2.svg" class="bounce">
-                        <p class="text-[22px] font-semibold leading-[140%]">
+                        <img src="./assets/FW-Presell-icon2.svg"
+                            class="animate-bounce-smooth">
+                        <p
+                            class="sm:text-[22px] text-lg font-semibold leading-[140%]">
                             50$ Cash Prize x 3 Winners</p>
 
                     </button>
+
+                    <form action
+                        class="flex flex-col justify-center items-center pt-4 text-black">
+                        <input
+                            type="name"
+                            placeholder="Name"
+                            class="placeholder:text-[#757575] outline-none focus:border-[#D4D5D9] md:w-[50%] w-full py-3 px-3 rounded-xl border border-[#D4D5D9] border-solid" />
+
+                        <input
+                            type="email"
+                            placeholder="Email"
+                            class="placeholder:text-[#757575] md:w-[50%] w-full outline-none focus:border-[#D4D5D9] py-3 mt-5 px-3 rounded-xl border border-[#D4D5D9] border-solid" />
+
+                        <button
+                            style="border-radius: 9px;
+                             background: linear-gradient(180deg, #DEB037 0%, #EE9D23 100%);"
+                            class="md:w-[50%] w-full text-white mt-4 text-lg font-semibold transition duration-500 hover:scale-110 py-[12px] px-[30px]">
+                            Book Your Seat
+                        </button>
+                    </form>
+                </div>
+
+                <img src="./assets/FW-Presell-arrow1.png"
+                    class="w-[180px] absolute bottom-0 left-1/2 transform -translate-x-1/2 animate-bounce-smooth">
+            </div>
+        </section>
+        <div class="bg-[#FAF6F0] py-14 -mt-32"></div>
+
+        <!-- SECTION2 -->
+        <section class="bg-[#FAF6F0] py-20">
+            <div class="px-4">
+                <div
+                    class="flex max-[1090px]:flex-col-reverse items-center gap-5 max-w-[1200px] mx-auto">
+                    <img src="./assets/FlaxxaWapi-Box.png"
+                        class="w-[520px] max-[1090px]:mx-auto">
+
+                    <div class="max-[1090px]:mx-auto">
+                        <span>
+                            <p
+                                class="text-[#297B68] font-black sm:text-[39px] text-[30px] leading-[100%]">Join
+                                Us On The xth Of September,</p>
+                            <span class="flex justify-end">
+                                <img src="./assets/FW-Presell-line1.png"
+                                    class="w-[341px] max-[1205px]:hidden">
+                            </span>
+                            <p
+                                class="text-[#2F3C33] sm:text-4xl text-[28px] font-bold leading-[100%]">At
+                                X PM EDT
+                                to:</p>
+
+                        </span>
+
+                        <ul
+                            class="font-light mt-8 text-[#2F3C33] space-y-4 text-xl leading-[30px]">
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p>Get
+                                    an
+                                    <span class="font-semibold">exclusive,
+                                        behind-the-scenes</span> look at
+                                    <span class="font-semibold">Flaxxa
+                                        Wapi</span></p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p>Learn how to tap into a <span
+                                        class="font-semibold">MASSIVE</span>
+                                    audience of 2
+                                    billion+ active WhatsApp users</p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p>Discover how <span
+                                        class="font-semibold">POWERFUL</span>
+                                    WhatsApp marketing can
+                                    be with Flaxxa Wapi's drag-and-drop builder,
+                                    AI-powered tools, in-depth analytics, and
+                                    more</p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p>Learn how to achieve <span
+                                        class="font-semibold">sky-high open
+                                        rates of
+                                        nearly 98%</span> </p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p>Deliver <span
+                                        class="font-semibold">exceptional
+                                        customer service</span> and
+                                    <span class="font-semibold">support</span>
+                                    with AI support</p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p>Dazzle customers with <span
+                                        class="font-semibold"> visually
+                                        stunning
+                                        WhatsApp catalogs</span> that drive
+                                    purchases</p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p> <span class="font-semibold">Outsmart your
+                                        competitors</span> with innovative
+                                    WhatsApp strategies</p>
+                            </li>
+
+                            <li class="text-[22px] font-semibold !mt-10">Plus,
+                                well show you how
+                                to:</li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p><span class="font-semibold">Create
+                                        high-converting WhatsApp
+                                        campaigns</span>
+                                    that turbo drive sales</p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p><span class="font-semibold">
+                                        Access a
+                                        vast library of pre-approved
+                                        customer templates
+                                    </span>for instant messaging</p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p><span class="font-semibold">Manage multiple
+                                        brands and contacts</span> with
+                                    ease</p>
+                            </li>
+
+                            <li class="flex gap-3 items-start">
+                                <img src="./assets/FW-Presell-icon3.svg"
+                                    style="mix-blend-mode: exclusion;">
+                                <p><span class="font-semibold">
+                                        with your favorite tools and
+                                        platforms through Zapier
+                                    </span>Integrate
+                                    for seamless
+                                    workflow</p>
+                            </li>
+
+                            <li class="font-semibold">You could also win big!
+                                Register now for a
+                                chance to be one of our 5 lucky winners!</li>
+                        </ul>
+
+                        <p class="text-[24px] font-light text-[#2F3C33]">5 FREE
+                            Copies of
+                            Flaxxa Wapi <br>50$ x 3 Lucky Winners</p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <script src="./index.js"></script>
-    </body>
-</html>
+        <!-- SECTION3 -->
+        <section class="presell-sec3 py-14">
+            <div class="max-w-[1200px] mx-auto  px-4">
+                <div
+                    class="max-w-[900px] mx-auto sm:p-[60px] p-[30px] mt-14"
+                    style="border-radius: 20px;
+                    border: 4px dashed rgba(134, 198, 58, 0.40);
+                    background: linear-gradient(0deg, #05312C 0%, #05312C 100%), rgba(47, 63, 27, 0.40);">
+
+                    <h5
+                        class="text-center sm:text-[36px] text-[28px] font-semibold leading-[120%]"
+                        style="background: linear-gradient(180deg, #86C63A 0%, #FF0 83.2%);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;">
+                        Congrats! You’re invited to Our Highly Exclusive Early
+                        Pre-launch Webinar on September 7th at 2 PM EDT!
+
+                        <button
+                            class="flex gap-3 mx-auto cursor-text items-center px-[30px] py-[5px] mt-6"
+                            style="border-radius: 10px;
+                    border: 1px solid #0E381A;
+                    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 10%, rgba(255, 255, 255, 0.02) 100%);">
+                            <img src="./assets/FW-Presell-icon4.svg"
+                                class="animate-bounce-smooth">
+                            <p
+                                class="sm:text-[22px] text-lg font-light leading-[140%]">
+                                Unreleased features and secret tips</p>
+
+                        </button>
+
+                        <button
+                            class="flex gap-3 mx-auto cursor-text items-center px-[30px] py-[5px] mt-4"
+                            style="border-radius: 10px;
+                    border: 1px solid #0E381A;
+                    background: linear-gradient(90deg, rgba(0, 0, 0, 0.25) 10%, rgba(255, 255, 255, 0.02) 100%);">
+                            <img src="./assets/FW-Presell-icon4.svg"
+                                class="animate-bounce-smooth">
+                            <p
+                                class="sm:text-[22px] text-lg font-light leading-[140%]">
+                                A live Q&A with the Flaxxa Wapi founders</p>
+
+                        </button>
+
+                        <h5
+                            class="text-center sm:text-4xl text-[28px]	text-white font-black leading-[120%] mt-3">
+                            Limited to X spots only! <br>
+                            Grab your spot before it's gone.
+                        </h5>
+
+                        <p
+                            class="text-center sm:text-[24px] text-lg text-[#A3D9B0] font-light leading-[120%] mt-8">
+                            By signing up, you'll be registered for both the
+                            pre-launch webinar and the main masterclass. First
+                            come, first served.
+                        </p>
+
+                        <form
+                            class="pt-4 text-black">
+                            <div
+                                class="grid sm:grid-cols-2 grid-cols-1 gap-5 justify-center items-center w-full">
+                                <input
+                                    type="name"
+                                    placeholder="Name"
+                                    class="placeholder:text-[#757575] outline-none focus:border-[#D4D5D9] w-full py-3 px-3 rounded-xl border border-[#D4D5D9] border-solid" />
+
+                                <input
+                                    type="email"
+                                    placeholder="Name"
+                                    class="placeholder:text-[#757575] outline-none focus:border-[#D4D5D9] w-full py-3 px-3 rounded-xl border border-[#D4D5D9] border-solid" />
+
+                            </div>
+                            <button
+                                style="border-radius: 9px;
+                         background: linear-gradient(180deg, #DEB037 0%, #EE9D23 100%);"
+                                class="sm:w-[55%] w-full  mx-auto block text-white mt-4 text-lg font-semibold transition duration-500 hover:scale-110 py-[12px] px-[30px]">
+                                Book Your Seat
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION4 -->
+            <section class="bg-[#FAF6F0] text-[#2F3C33] py-20">
+                <div class="max-w-[1200px] mx-auto px-4">
+                    <span class="flex justify-center items-center gap-3">
+                        <img src="./assets/FW-Presell-icon5.svg" alt>
+                        <h2
+                            class="text-center text-[#297B68] font-black sm:text-[44px] text-[32px] leading-[120%]">Don't
+                            Just Take Our Word For
+                            It.</h2>
+                        <img src="./assets/FW-Presell-icon6.svg" alt>
+                    </span>
+
+                    <p
+                        class="text-center ssm:text-4xl text-[25px] font-bold leading-[120%]">See
+                        how real
+                        businesses are
+                        already <br>
+                        impressed with Flaxxa
+                        Wapi.</p>
+
+                    <div
+                        class="grid md:grid-cols-2 gap-8 max-w-[1100px] mx-auto mt-12">
+                        <div class="testimmonials p-[30px]">
+                            <p class="text-lg leading-[150%] text-center">"I was
+                                hesitant to invest in another marketing
+                                tool, but Flaxxa Wapi has exceeded my
+                                expectations. The ROI has been incredible. I
+                                love how
+                                easy it is to create and manage campaigns, and
+                                the customer support is top-notch. This
+                                platform has truly helped us grow our
+                                business.”</p>
+                            <span
+                                class="flex justify-center gap-6 items-center mt-4">
+                                <img src="./assets/FW-Presell-img1.png" alt>
+                                <span>
+                                    <p
+                                        class="text-lg font-medium leading-[120%]"><span
+                                            class="font-semibold">Tara,</span>
+                                        Business Owner</p>
+                                    <p
+                                        class="text-[#297B68] text-base leading-[120%]">Beauty
+                                        & Cosmetics</p>
+                                </span>
+                            </span>
+                        </div>
+
+                        <div class="testimmonials p-[30px]">
+                            <p class="text-lg leading-[150%] text-center">“I was
+                                drowning in customer inquiries and struggling to
+                                keep up. Flaxxa Wapi has been a lifesaver! The
+                                AI-powered chatbots handle a majority of our
+                                customer interactions, freeing up my team to
+                                focus on more complex issues. Plus, the ability
+                                to send personalized messages has really
+                                improved customer satisfaction.”</p>
+                            <span
+                                class="flex justify-center gap-6 items-center mt-4">
+                                <img src="./assets/FW-Presell-img1.png" alt>
+                                <span>
+                                    <p
+                                        class="text-lg font-medium leading-[120%]"><span
+                                            class="font-semibold">Yusif,</span>
+                                        Yusif, Marketer</p>
+                                    <p
+                                        class="text-[#297B68] text-base leading-[120%]">Software
+                                        Technologies</p>
+                                </span>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <div
+                        class="max-w-[600px] mx-auto mt-12">
+                        <div class="testimmonials p-[30px]">
+                            <p class="text-lg leading-[150%] text-center">"I was
+                                hesitant to invest in another marketing
+                                tool, but Flaxxa Wapi has exceeded my
+                                expectations. The ROI has been incredible. I
+                                love how
+                                easy it is to create and manage campaigns, and
+                                the customer support is top-notch. This
+                                platform has truly helped us grow our
+                                business.”</p>
+                            <span
+                                class="flex justify-center gap-6 items-center mt-4">
+                                <img src="./assets/FW-Presell-img1.png" alt>
+                                <span>
+                                    <p
+                                        class="text-lg font-medium leading-[120%]"><span
+                                            class="font-semibold">Senmon,</span>
+                                        General Manage</p>
+                                    <p
+                                        class="text-[#297B68] text-base leading-[120%]">
+                                        Food & Beverage
+                                    </p>
+                                </span>
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <footer class="jv-footer py-20">
+                <div class="max-w-[1200px] mx-auto lg:px-4 px-6">
+                    <img src="./assets/FW-LOGO.png" class="w-[250px] mx-auto">
+
+                    <p
+                        class="text-center text-white sm:text-lg text-base font-light mt-10">Copyright
+                        ©
+                        All rights reserved. Privacy Policy.</p>
+
+                    <div class="flex flex-wrap justify-center gap-6 mt-8">
+                        <a href="#"
+                            class="sm:text-lg text-base  font-light leading-[120%]">Cookie
+                            Policy</a>
+                        <a href="#"
+                            class="sm:text-lg text-base  font-light leading-[120%]">Earning
+                            Disclamer</a>
+                        <a href="#"
+                            class="sm:text-lg text-base  font-light leading-[120%]">Privacy
+                            Policy</a>
+                        <a href="#"
+                            class="sm:text-lg text-base  font-light leading-[120%]">Refund
+                            Policy</a>
+                        <a href="#"
+                            class="sm:text-lg text-base  font-light leading-[120%]">Terms
+                            and
+                            Conditions</a>
+                        <a href="#"
+                            class="sm:text-lg text-base  font-light leading-[120%]">
+                            Anti Spam
+                            Policy</a>
+                        <a href="#"
+                            class="sm:text-lg text-base  font-light leading-[120%]">Acceptable
+                            Use
+                            Policy</a>
+                    </div>
+                </div>
+
+            </footer>
+
+            <script src="./index.js"></script>
+        </body>
+    </html>

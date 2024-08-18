@@ -139,14 +139,21 @@ body {
 }
 
 /*JV BACKGROUND IMAGES end*/
+
+/*PRESELL BACKGROUND IMAGES start*/
 .presell-sec1 {
   background: url("./assets/FW-Presell-sec1-bg.svg");
   background-repeat: no-repeat;
-  background-position: bottom center;
+  background-position: top center;
   background-size: cover;
 }
 
-/*PRESELL BACKGROUND IMAGES start*/
+.presell-sec3 {
+  background: url("./assets/FW-Presell-sec3-bg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
 
 .grad-1 {
   border-radius: 10px;
@@ -291,6 +298,20 @@ body {
   }
 }
 
+@keyframes bounce-smooth {
+  0%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    transform: translateX(-50%) translateY(-10px);
+  }
+}
+
+.animate-bounce-smooth {
+  animation: bounce-smooth 1.5s ease-in-out infinite;
+}
+
 .promote-border {
   border-radius: 20px;
   border: 2px solid rgba(41, 123, 104, 0.32);
@@ -349,44 +370,9 @@ body {
   margin-top: -12px;
 }
 
-/* .countdown {
-  border-radius: 8.689px;
-border: 0.868px solid rgba(255, 255, 255, 0.30);
-background: linear-gradient(144deg, #28272F 9.13%, #040404 62.89%);
-box-shadow: 0px 0px 10.411px 0px rgba(134, 198, 58, 0.40);
+.testimmonials {
+  border-radius: 20px;
+  border: 1px solid rgba(41, 123, 104, 0.25);
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
 }
-
-.countdown div {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-
-.label {
-  font-size: 1rem;
-  color: hsl(0, 0%, 67%);
-} */
-
-/* @media (max-width: 48rem) {
-  .countdown div span {
-    font-size: 1.5rem;
-  }
-
-  .label {
-    font-size: 0.875rem;
-  }
-}
-
-@media (max-width: 30rem) {
-  .countdown div {
-    margin: 0 0.25rem;
-  }
-
-  .countdown div span {
-    font-size: 1.25rem;
-  }
-
-  .label {
-    font-size: 0.75rem;
-  }
-} */
