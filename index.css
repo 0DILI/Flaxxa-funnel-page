@@ -140,21 +140,6 @@ body {
 
 /*JV BACKGROUND IMAGES end*/
 
-/*PRESELL BACKGROUND IMAGES start*/
-.presell-sec1 {
-  background: url("./assets/FW-Presell-sec1-bg.svg");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-}
-
-.presell-sec3 {
-  background: url("./assets/FW-Presell-sec3-bg.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-}
-
 .grad-1 {
   border-radius: 10px;
   border: 1px solid #0e381a;
@@ -347,32 +332,4 @@ body {
   .vid-test iframe {
     height: 300px;
   }
-}
-
-.countdown div span {
-  background: linear-gradient(63deg, #25efac 18.31%, #21be57 83.56%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding-left: 0;
-  margin: 0;
-}
-
-.countdown {
-  border-radius: 8.689px;
-  border: 0.868px solid rgba(255, 255, 255, 0.3);
-  background: linear-gradient(144deg, #28272f 9.13%, #040404 62.89%);
-  box-shadow: 0px 0px 10.411px 0px rgba(134, 198, 58, 0.4);
-  padding: 10px 0;
-}
-
-.countdown div {
-  margin-top: -12px;
-}
-
-.testimmonials {
-  border-radius: 20px;
-  border: 1px solid rgba(41, 123, 104, 0.25);
-  background: #fff;
-  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.15);
 }
